@@ -7,10 +7,19 @@ Program to display a machine's table from James Harland's Platypus Game in COSC1
 It is recommended to create a Python virtual environment to run this project. Click here to [learn more.](https://docs.python.org/3/tutorial/venv.html)
 
 Create and activate virtual environment:
+
+---
+### Unix or MacOS
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
+### Windows
+```bash
+python3 -m venv venv
+venv\bin\activate.bat
+```
+---
 Install requirements:
 ```bash
 pip install -r requirements.txt
